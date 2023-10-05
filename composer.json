@@ -19,14 +19,14 @@
         "stof/doctrine-extensions-bundle": "self.version"
     },
     "require": {
-        "symfony/mime": "^4.3|^5.0",
-        "php": "^7.2.5 || ^8.0",
-        "symfony/framework-bundle": "^4.4|^5.0",
+        "symfony/mime": "^4.3|^5.0|^6.0",
+        "php": "^7.2.5 || ^8.0 || ^8.1",
+        "symfony/framework-bundle": "^4.4|^5.0|^6.0",
         "gedmo/doctrine-extensions": "^2.3.4 || ^3.0"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "^4.4|^5.0",
-        "symfony/security-bundle": "^4.4|^5.0"
+        "symfony/phpunit-bridge": "^4.4|^5.0|^6.0",
+        "symfony/security-bundle": "^4.4|^5.0|^6.0"
     },
     "suggest": {
         "doctrine/doctrine-bundle": "to use the ORM extensions",
